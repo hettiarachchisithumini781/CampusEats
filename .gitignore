@@ -1,0 +1,26 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Production build files
+dist/
+build/
+
+# .NET generated files
+bin/
+obj/
+
+# Log files
+*.log
+npm-debug.log*
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
